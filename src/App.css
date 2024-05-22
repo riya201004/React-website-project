@@ -29,29 +29,29 @@ nav a {
   justify-content: center;
   box-sizing: border-box;
   text-align: center;
-  overflow: hidden; /* Ensure content stays within the circle */
+  overflow: hidden; 
 
   &:hover {
-    border: 5px solid rgba(142, 242, 145, 0.961); /* Adjust background color if needed */
+    border: 5px solid rgba(142, 242, 145, 0.961); 
   }
 }
 
 .card h2 {
-  font-size: 1.2em; /* Adjust font size as needed */
-  margin: 5px 0; /* Adjust margin for spacing */
+  font-size: 1.2em; 
+  margin: 5px 0; 
   text-decoration: underline;
   color:white;
 }
 
 .card h3 {
-  font-size: 0.742em; /* Adjust font size as needed */
-  margin: 5px 0; /* Adjust margin for spacing */
+  font-size: 0.742em; 
+  margin: 5px 0; 
 }
 
 .intro-card {
   background-color: rgba(255, 149, 0, 0.6);
   position: fixed;
-  padding: 10px; /* Reduced padding to fit content */
+  padding: 10px; 
   border-radius: 50%;
   top:20%;
   left:3%;
@@ -99,17 +99,6 @@ nav a {
   width: 100%;
   height: 100%;
 }
-
-/* .App-logo {
-  height: 40vmin;
-  pointer-events: none;
-} */
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
 
 @keyframes App-logo-spin {
   from {
